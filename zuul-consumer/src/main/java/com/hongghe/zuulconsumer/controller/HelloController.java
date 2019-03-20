@@ -10,6 +10,7 @@ public class HelloController {
 
     @Autowired
     RestTemplate restTemplate;
+
     @RequestMapping("/")
     public  String hello()
     {
